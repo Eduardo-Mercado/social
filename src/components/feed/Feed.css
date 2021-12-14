@@ -1,0 +1,36 @@
+
+.card {
+    background-color: #232b35;
+    margin-top: 4vh;
+  }
+  
+  .card-header {
+    color: #93d74a;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .card-header h2 {
+    text-align: left;
+  }
+
+  .card-header span svg {
+    margin-left: 1vh;
+    color: #667380;
+  }
+
+  .card-header span svg:last-child {
+    color: #cbd7e4;
+  }
+  
+  .card-body ul {
+    list-style: none;
+  }
+  
+  .card-body ul li {
+    margin-bottom: 0.9vh;
+  }
